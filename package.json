@@ -1,0 +1,19 @@
+{
+  "name": "VisuAlg",
+  "version": "1.0.0",
+  "description": "Interpretador javascript para a linguagem portugol usada no VisualAlg",
+  "main": "app.js",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "string": "^3.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "visualAlg"
+  ],
+  "author": "Jhony Lucas",
+  "license": "ISC"
+}

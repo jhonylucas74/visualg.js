@@ -1,0 +1,145 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'colors',
+1 verbose cli   '1.1.2',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose cache add [ 'colors', null ]
+5 verbose cache add name=undefined spec="colors" args=["colors",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'colors',
+6 verbose parsed url   path: 'colors',
+6 verbose parsed url   href: 'colors' }
+7 verbose cache add [ '1.1.2', null ]
+8 verbose cache add name=undefined spec="1.1.2" args=["1.1.2",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: '1.1.2',
+9 verbose parsed url   path: '1.1.2',
+9 verbose parsed url   href: '1.1.2' }
+10 silly lockFile f8bd6967-colors colors
+11 verbose lock colors /Users/jhonylucas/.npm/f8bd6967-colors.lock
+12 silly lockFile e3429934-1-1-2 1.1.2
+13 verbose lock 1.1.2 /Users/jhonylucas/.npm/e3429934-1-1-2.lock
+14 silly lockFile f8bd6967-colors colors
+15 silly lockFile f8bd6967-colors colors
+16 silly lockFile e3429934-1-1-2 1.1.2
+17 silly lockFile e3429934-1-1-2 1.1.2
+18 verbose addNamed [ 'colors', '' ]
+19 verbose addNamed [ null, '*' ]
+20 silly lockFile 647b9942-colors colors@
+21 verbose lock colors@ /Users/jhonylucas/.npm/647b9942-colors.lock
+22 verbose addNamed [ '1.1.2', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile 66dec71f-1-1-2 1.1.2@
+25 verbose lock 1.1.2@ /Users/jhonylucas/.npm/66dec71f-1-1-2.lock
+26 silly addNameRange { name: 'colors', range: '*', hasData: false }
+27 silly addNameRange { name: '1.1.2', range: '*', hasData: false }
+28 verbose request where is /1.1.2
+29 verbose request registry https://registry.npmjs.org/
+30 verbose request id c7e0fc6a8b22c795
+31 verbose url raw /1.1.2
+32 verbose url resolving [ 'https://registry.npmjs.org/', './1.1.2' ]
+33 verbose url resolved https://registry.npmjs.org/1.1.2
+34 verbose request where is https://registry.npmjs.org/1.1.2
+35 info trying registry request attempt 1 at 21:56:09
+36 http GET https://registry.npmjs.org/1.1.2
+37 verbose request where is /colors
+38 verbose request registry https://registry.npmjs.org/
+39 verbose url raw /colors
+40 verbose url resolving [ 'https://registry.npmjs.org/', './colors' ]
+41 verbose url resolved https://registry.npmjs.org/colors
+42 verbose request where is https://registry.npmjs.org/colors
+43 info trying registry request attempt 1 at 21:56:09
+44 verbose etag "45PSPABUGGY81H109QDO05WGD"
+45 http GET https://registry.npmjs.org/colors
+46 http 404 https://registry.npmjs.org/1.1.2
+47 silly registry.get cb [ 404,
+47 silly registry.get   { 'content-type': 'application/json',
+47 silly registry.get     'cache-control': 'max-age=0',
+47 silly registry.get     'content-length': '2',
+47 silly registry.get     'accept-ranges': 'bytes',
+47 silly registry.get     date: 'Thu, 19 Nov 2015 01:04:23 GMT',
+47 silly registry.get     via: '1.1 varnish',
+47 silly registry.get     age: '0',
+47 silly registry.get     connection: 'keep-alive',
+47 silly registry.get     'x-served-by': 'cache-jfk1026-JFK',
+47 silly registry.get     'x-cache': 'MISS',
+47 silly registry.get     'x-cache-hits': '0',
+47 silly registry.get     'x-timer': 'S1447895063.886805,VS0,VE85' } ]
+48 silly lockFile 66dec71f-1-1-2 1.1.2@
+49 silly lockFile 66dec71f-1-1-2 1.1.2@
+50 http 200 https://registry.npmjs.org/colors
+51 silly registry.get cb [ 200,
+51 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+51 silly registry.get     etag: '"CFUYG030V3BTYD32G50TOSCMR"',
+51 silly registry.get     'content-type': 'application/json',
+51 silly registry.get     'cache-control': 'max-age=60',
+51 silly registry.get     'content-length': '20181',
+51 silly registry.get     'accept-ranges': 'bytes',
+51 silly registry.get     date: 'Thu, 19 Nov 2015 01:04:23 GMT',
+51 silly registry.get     via: '1.1 varnish',
+51 silly registry.get     age: '39',
+51 silly registry.get     connection: 'keep-alive',
+51 silly registry.get     'x-served-by': 'cache-jfk1030-JFK',
+51 silly registry.get     'x-cache': 'HIT',
+51 silly registry.get     'x-cache-hits': '4',
+51 silly registry.get     'x-timer': 'S1447895063.890647,VS0,VE0',
+51 silly registry.get     vary: 'Accept' } ]
+52 silly addNameRange number 2 { name: 'colors', range: '*', hasData: true }
+53 silly addNameRange versions [ 'colors',
+53 silly addNameRange   [ '0.3.0',
+53 silly addNameRange     '0.5.0',
+53 silly addNameRange     '0.5.1',
+53 silly addNameRange     '0.6.0',
+53 silly addNameRange     '0.6.0-1',
+53 silly addNameRange     '0.6.1',
+53 silly addNameRange     '0.6.2',
+53 silly addNameRange     '1.0.0',
+53 silly addNameRange     '1.0.1',
+53 silly addNameRange     '1.0.2',
+53 silly addNameRange     '1.0.3',
+53 silly addNameRange     '1.1.0',
+53 silly addNameRange     '1.1.1',
+53 silly addNameRange     '1.1.2' ] ]
+54 verbose addNamed [ 'colors', '1.1.2' ]
+55 verbose addNamed [ '1.1.2', '1.1.2' ]
+56 silly lockFile 12b5d644-colors-1-1-2 colors@1.1.2
+57 verbose lock colors@1.1.2 /Users/jhonylucas/.npm/12b5d644-colors-1-1-2.lock
+58 silly lockFile 12b5d644-colors-1-1-2 colors@1.1.2
+59 silly lockFile 12b5d644-colors-1-1-2 colors@1.1.2
+60 silly lockFile 647b9942-colors colors@
+61 silly lockFile 647b9942-colors colors@
+62 error 404 Not Found
+62 error 404
+62 error 404 '1.1.2' is not in the npm registry.
+62 error 404 You should bug the author to publish it
+62 error 404
+62 error 404 Note that you can also install from a
+62 error 404 tarball, folder, or http url, or git url.
+63 error System Darwin 13.4.0
+64 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "colors" "1.1.2" "--save"
+65 error cwd /Users/jhonylucas/projetos/estudos/js/androidVisual
+66 error node -v v0.10.33
+67 error npm -v 1.4.28
+68 error code E404
+69 verbose exit [ 1, true ]
