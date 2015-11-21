@@ -14,13 +14,15 @@
 * Erro 502 : Tipo da variável não é válido.
 * Erro 503 : O intervalo definido na criação do array não é um número.
 
+##### Não encontrado
 
+* Erro 401: variável não foi declarada no inicio do programa.
 
 var
 
 inicio
   var atribuições
-  esvreval
+  escreval, escreva
   if
   else
   for
