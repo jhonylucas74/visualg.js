@@ -10,6 +10,7 @@
 
 ##### Formato inválido
 
+* novos rrs
 * Erro 501 : Palavra reservada ``algoritmo`` foi encontrada mas título é inválido.
 * Erro 502 : Tipo da variável não é válido.
 * Erro 503 : O intervalo definido na criação do array não é um número.
