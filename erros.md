@@ -9,8 +9,8 @@
 * Erro 307 : Era esperado encontrar os caracteres ..
 
 ##### Formato inválido
-
-* Novos asassassd
+as
+* Novos asassaasssd
 * Erro 501 : Palavra reservada ``algoritmo`` foi encontrada mas título é inválido.
 * Erro 502 : Tipo da variável não é válido.
 * Erro 503 : O intervalo definido na criação do array não é um número.
